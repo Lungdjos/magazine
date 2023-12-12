@@ -1,0 +1,8 @@
+/* the styling of the magazine */
+
+*,
+ ::after,
+ ::before {
+    margin: 0;
+    box-sizing: ;
+}
