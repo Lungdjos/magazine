@@ -1,9 +1,11 @@
+/* the styling of the magazine */
+
 *,
 ::before,
-::after {
-    padding: 0;
+ ::after {
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 html {
@@ -11,13 +13,13 @@ html {
 }
 
 body {
-    font-family: 'Baskervville', serif;
+    font-family: Baskervville, serif;
     color: linen;
     background-color: rgb(20, 30, 40);
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: Anton, sans-serif;
 }
 
 h2,
@@ -25,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 a {
@@ -40,28 +42,16 @@ main {
 }
 
 .heading {
-    grid-column: 2 / 3;
+    grid-column: 2/3;
     display: grid;
-    row-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: ;
 }
 
 .text {
-    grid-column: 2 / 3;
+    grid-column: 2/3;
 }
 
-.hero {
-    grid-column: 1/-1;
-    position: relative;
-}
+grid-column: 2/3;
 
-img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.hero-title {
-    text-align: center;
-    color: orangered;
-    font-size: 8rem;
 }
