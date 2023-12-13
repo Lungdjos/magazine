@@ -119,10 +119,4 @@ hr {
     font-family: Raleway, sans-serif;
 }
 
-.quote::after {
-    content: ' "';
-}
-
-.quote::before {
-    content: '" ';
-}
+.quote::after {}

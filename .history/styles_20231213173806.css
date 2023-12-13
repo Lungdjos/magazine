@@ -112,17 +112,4 @@ hr {
     border: 2px solid rgba(120, 120, 120, .6);
 }
 
-.quote {
-    color: #00beef;
-    font-size: 2.2rem;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-}
-
-.quote::after {
-    content: ' "';
-}
-
-.quote::before {
-    content: '" ';
-}
+.quote {}

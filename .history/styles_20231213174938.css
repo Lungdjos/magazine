@@ -118,11 +118,3 @@ hr {
     text-align: center;
     font-family: Raleway, sans-serif;
 }
-
-.quote::after {
-    content: ' "';
-}
-
-.quote::before {
-    content: '" ';
-}

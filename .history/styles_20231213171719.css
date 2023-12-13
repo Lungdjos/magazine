@@ -101,28 +101,5 @@ img {
 .first-paragraph::first-letter {
     font-size: 6rem;
     color: orangered;
-    float: left;
-    margin-right: 1rem;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-hr {
-    margin: 1.6rem 0;
-    border: 2px solid rgba(120, 120, 120, .6);
-}
-
-.quote {
-    color: #00beef;
-    font-size: 2.2rem;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-}
-
-.quote::after {
-    content: ' "';
-}
-
-.quote::before {
-    content: '" ';
+    float: left
 }

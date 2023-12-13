@@ -120,9 +120,10 @@ hr {
 }
 
 .quote::after {
-    content: ' "';
+    content: ";
+
 }
 
 .quote::before {
-    content: '" ';
+    content: "\"";
 }
