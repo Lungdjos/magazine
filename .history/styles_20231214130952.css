@@ -200,8 +200,8 @@ hr {
     }
 }
 
-@media only screen and (max-width: 420px) {
-    .hero-title {
-        font-size: 4.5rem;
+@media only screen and (max-width: 720px) {
+    .image-wrapper {
+        grid-template-columns: 1fr;
     }
 }

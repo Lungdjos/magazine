@@ -183,7 +183,7 @@ hr {
 }
 
 @media only screen and (max-width: 550px) {
-    .hero-title {
+    .hero {
         font-size: 6rem;
     }
     .hero-subtitle,
@@ -192,16 +192,5 @@ hr {
     .list-title {
         font-size: 1.8rem;
     }
-    .social-icons {
-        font-size: 2rem;
-    }
-    .text {
-        font-size: 1.6rem;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .hero-title {
-        font-size: 4.5rem;
-    }
+    .social-icons {}
 }
