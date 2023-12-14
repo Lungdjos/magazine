@@ -128,7 +128,7 @@ hr {
 }
 
 
-/* styling the image section and the list */
+/* styling the image section a */
 
 .text-with-images {
     display: grid;
@@ -153,16 +153,3 @@ hr {
 
 
 /* styling the last section of the magazine */
-
-.image-wrapper {
-    gap: 2rem;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(3, min-content);
-}
-
-.image-1,
-.image-3 {
-    grid-column: 1/-1;
-}

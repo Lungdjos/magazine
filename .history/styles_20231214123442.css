@@ -127,9 +127,6 @@ hr {
     content: '" ';
 }
 
-
-/* styling the image section and the list */
-
 .text-with-images {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -146,23 +143,4 @@ hr {
     margin-bottom: 1.5rem;
 }
 
-.list-title,
-.list-subtitle {
-    color: #00beef;
-}
-
-
-/* styling the last section of the magazine */
-
-.image-wrapper {
-    gap: 2rem;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(3, min-content);
-}
-
-.image-1,
-.image-3 {
-    grid-column: 1/-1;
-}
+.list-title

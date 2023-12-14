@@ -166,3 +166,12 @@ hr {
 .image-3 {
     grid-column: 1/-1;
 }
+
+
+/* styling for media */
+
+@media onl(max-width: 720px) {
+    .image-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

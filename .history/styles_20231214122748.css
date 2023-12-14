@@ -127,42 +127,8 @@ hr {
     content: '" ';
 }
 
-
-/* styling the image section and the list */
-
 .text-with-images {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.lists {
-    list-style-type: none;
-    margin-top: 2rem;
-}
-
-.lists li {
-    margin-bottom: 1.5rem;
-}
-
-.list-title,
-.list-subtitle {
-    color: #00beef;
-}
-
-
-/* styling the last section of the magazine */
-
-.image-wrapper {
-    gap: 2rem;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(3, min-content);
-}
-
-.image-1,
-.image-3 {
-    grid-column: 1/-1;
+    column-gap: 3;
 }
